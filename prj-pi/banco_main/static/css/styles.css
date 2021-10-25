@@ -1,7 +1,21 @@
+
+
+.img-logo {
+   
+   width: 50%; 
+   display: block; 
+   margin-left: auto; 
+   margin-right: auto 
+   
+     
+ }
+
 .container-fluid{
     padding: 0;
+
+}   
 /* nav bar*/
-}
+
 
 .navbar {
     border-bottom: 1px solid #333;
