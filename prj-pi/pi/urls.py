@@ -19,5 +19,6 @@ from banco_main import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.helloworld, name='helloworld' ),
+   # path('', views.helloworld, name='helloworld' ),
+    path('', views.banco_main_home, name='banco-main-home'),
 ]
