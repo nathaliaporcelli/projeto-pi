@@ -15,10 +15,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls.conf import include 
 from banco_main import views
+
+
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
    # path('', views.helloworld, name='helloworld' ),
     path('', views.banco_main_home, name='banco-main-home'),
+    path('',views.banco_main_cadastro, name='banco-main-cadastro'),
+     path ('banco_cadastro/', include('banco_cadastro.urls')),
+    
+    
+    
 ]

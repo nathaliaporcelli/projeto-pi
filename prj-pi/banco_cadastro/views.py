@@ -1,4 +1,3 @@
-from django.http.response import HttpResponse
 from django.shortcuts import render
 from django.http import HttpResponse
 
@@ -6,8 +5,5 @@ from django.http import HttpResponse
 #def helloworld (request):
  #   return HttpResponse("Hello World")
     
-def banco_main_home(request):
-    return render(request, 'banco_main_home/home.html')  
-
 def banco_main_cadastro(request):
     return render(request, 'banco_main_cadastro/cadastro.html')  
